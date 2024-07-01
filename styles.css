@@ -1,0 +1,163 @@
+/* Desktop */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: wheat;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-heading {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border: 2px solid #ddd;
+}
+
+.profile img {
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+
+.profile img:hover {
+  transform: scale(1.2);
+}
+
+.time-info {
+  margin: 20px 0;
+}
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: #0073e6;
+  color: white;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  /* Tablet */
+  .container {
+    max-width: 600px;
+    margin: 0px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: medium;
+  }
+
+  .profile {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+  }
+
+  .profile img {
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    width: 400px;
+    height: 500px;
+  }
+
+  .profile img:hover {
+    transform: scale(1);
+  }
+
+  .time-info {
+    margin: 10px 0;
+  }
+
+  .links {
+    margin-top: 10px;
+  }
+
+  .links a {
+    margin-right: 10px;
+  }
+
+  ul li {
+    margin: 3px 0;
+    padding: 5px;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Mobile */
+  .container {
+    max-width: 400px;
+    margin: 0px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: small;
+  }
+
+  .profile {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .profile img {
+    border-radius: 50%;
+    transition: transform 0.5s ease;
+    width: 250px;
+    height: 300px;
+  }
+
+  .profile img:hover {
+    transform: scale(1);
+  }
+
+  .time-info {
+    margin: 5px 0;
+  }
+
+  .links {
+    margin-top: 5px;
+  }
+
+  .links a {
+    margin-right: 5px;
+  }
+
+  ul li {
+    margin: 2px 0;
+    padding: 3px;
+    border-radius: 2px;
+  }
+}
