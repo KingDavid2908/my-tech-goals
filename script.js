@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  function updateTime() {
+  const updateTime = () => {
     const now = new Date();
     const utcTime = now.toUTCString().split(" ")[4];
     const dayOfWeek = now.toLocaleString("en-us", {
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("current-time").textContent = utcTime;
     document.getElementById("current-day").textContent = dayOfWeek;
-  }
+  };
 
   updateTime();
   setInterval(updateTime, 1000);
