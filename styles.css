@@ -38,8 +38,6 @@ h2 {
 
 .profile img {
   /* The width and height specified here are the natural dimensions which are the same as the image file. */
-  width: var(--image-width);
-  height: var(--image-height);
   border-radius: 50%;
   transition: transform 0.5s ease;
 }
