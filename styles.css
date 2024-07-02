@@ -8,8 +8,8 @@ body {
 
 :root {
   /* Creating Variables to put the natural dimension of the profile picture so I can rescale it based on percentage when trying to achieve responsiveness */
-  --image-height: 581px;
-  --image-width: 480px;
+  --image-height: 538px;
+  --image-width: 444px;
 }
 
 .container {
